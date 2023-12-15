@@ -1,0 +1,32 @@
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    padding: 30px;
+}
+
+.content {
+    display: flex;
+}
+
+img {
+    height: 43.7px;
+    width: 70px;
+    margin-left: auto;
+}
+
+.items {
+    list-style-type: none;
+    display: flex;
+    gap: 47px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li :hover{
+    text-decoration: underline;
+}
