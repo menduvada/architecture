@@ -1,0 +1,124 @@
+.container {
+    margin: 100px;
+    margin-left: 220px;
+    width: 1170px;
+    height: 465px;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 435px;
+    top: 1054px;
+    left: 135px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+}
+
+.left1 {
+    width: 270px;
+    height: 265px;
+}
+
+.left2 {
+    width: 270px;
+    height: 140px;
+    margin-top: 20px;
+}
+
+
+
+.left3 {
+    width: 270px;
+    height: 345px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.right {
+    margin-left: 40px;
+    width: 50%;
+}
+
+.right h1 {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: rgba(189, 189, 189, 1);
+    height: 64px;
+    width: 168px;
+    font-variant: small-caps;
+}
+
+.right p {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+}
+
+.right button{
+    width: 222px;
+    height: 71px;
+    margin-top: 20px;
+    border: none;
+}
+
+.bottom{
+    width: 1170px;
+    height: 268px;
+    top: 1639px;
+    left: 135px;
+}
+
+.content{
+    display: flex;
+}
+
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: 64px;
+    line-height: 64px;
+    color:rgba(189, 189, 189, 1);
+    width: 880px;
+    height: 64px;
+}
+
+.content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.title2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 234.38px;
+    color: rgba(242, 242, 242, 1);
+    margin: 0px;
+    margin-left: 200px;
+}
+
+.title1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 234.38px;
+    color: rgba(242, 242, 242, 1);
+    margin: 0px;
+}
