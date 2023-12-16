@@ -1,6 +1,5 @@
 .container{
     display: flex;
-    padding: 0px;
 }
 
 .left{
@@ -26,16 +25,13 @@
     width: 200px;
     z-index: 1;
     position: absolute;
-    right: 582px;
+    right: 584px;
     top:655px;
 }
 
 .content{
     text-align: center;
 }
-
-
-
 
 .title{
     margin-top: 200px;

@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.top}>
         <div className={styles.left}>
           <div>
@@ -48,7 +48,7 @@ const About = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat, magna mauris porttitor tortor, a auctor est felis ut nisl.</p>
         </div>
       </div>
-    </div>
+    </section>
       
   );
 };
