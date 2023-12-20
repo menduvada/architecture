@@ -1,19 +1,32 @@
 import React from "react";
-import styles from "./Navbar.module.css"
+import styles from "./Navbar.module.css";
+import { Outlet,Link } from "react-router-dom";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className={styles.container}>
-      <nav className={styles.content}>
-        <img src="/assets/logo.png" alt="Logo" className={styles.img} />
-        <ul className={styles.items}>
-          <li><a href="main">Main</a></li>
-          <li><a href="gallery">Gallery</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </div>
+    <div>
+      <div className={styles.container}>
+        <nav className={styles.content}>
+          <img src="/assets/logo.png" alt="Logo" className={styles.img} />
+          <ul className={styles.items}>
+            <li>
+              <Link to="/">Main</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Gallery</Link>
+            </li>
+            <li>
+              <Link to="/pd">Projects_Details</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contacts</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+        <Outlet/>
+      </div>
   );
 };
 

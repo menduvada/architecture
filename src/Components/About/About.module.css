@@ -1,8 +1,6 @@
 .container {
     margin: 100px;
     margin-left: 220px;
-   
-
 }
 
 .top {
@@ -120,4 +118,13 @@
     line-height: 234.38px;
     color: rgba(242, 242, 242, 1);
     margin: 0px;
+}
+
+@media screen and (max-width:830px) {
+    .container {
+        margin-left: 10px;
+    } 
+    
+    .top{
+    }
 }

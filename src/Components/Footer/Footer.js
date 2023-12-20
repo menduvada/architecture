@@ -13,7 +13,6 @@ const Footer = () => {
         <p>Main</p>
         <p>Gallery</p>
         <p>Projects</p>
-        <p>Certification</p>
         <p>Contacts</p>
       </div>
       <div className={styles.contact}>

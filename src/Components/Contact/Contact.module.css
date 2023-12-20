@@ -1,0 +1,49 @@
+.container{
+margin-left: 150px;
+display: flex;
+}
+
+.title{
+    height: Hug (277.76px);
+    width: Hug (128px);
+    list-style-type: none;
+}
+
+.title1{
+    height: 64px;
+    width: 277.76px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 300;
+    color: rgba(189, 189, 189, 1);
+}
+
+.title2{
+    height: 64px;
+    width: 203px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 1);
+}
+
+.text{
+    list-style-type: none;
+}
+
+.button{
+   margin-top: 40px;
+   margin-left: 40px;
+   height: 71px;
+   width: 222px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 12px;
+   color: rgba(255, 255, 255, 1);
+   background-color: rgba(51, 51, 51, 1);
+}
+
+iframe{
+    height: 501px;
+    width: 681px;
+    margin-left: 300px;
+}
