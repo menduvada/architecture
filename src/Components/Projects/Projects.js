@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Projects.module.css";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -9,32 +10,38 @@ const Projects = () => {
         <img
           src="assets/Project1.png"
           alt="Project1"
-          style={{ width: "570px", height: "255px", filter: "grayscale(90%) brightness(50%)"}}
+          style={{
+            width: "570px",
+            height: "255px",
+            filter: "grayscale(90%) brightness(50%)",
+          }}
         />
         <h1
           style={{
             position: "absolute",
-            left: "25%",
+            left: "15%",
             top: "250%",
-            color:"white",
-            fontSize:"40px"
+            color: "white",
+            fontSize: "40px",
           }}
         >
           Sample Project
         </h1>
-        <button
-          style={{
-            position: "absolute",
-            left: "25%",
-            top: "265%",
-            background:"whitesmoke",
-            border:"none",
-            padding:"10px",
-            width:"150px",
-          }}
-        >
-          View More
-        </button>
+        <Link to="/project1">
+          <button
+            style={{
+              position: "absolute",
+              left: "18%",
+              top: "265%",
+              background: "whitesmoke",
+              border: "none",
+              padding: "10px",
+              width: "150px",
+            }}
+          >
+            View More
+          </button>
+        </Link>
         <img
           src="assets/Project2.png"
           alt="Project2"
