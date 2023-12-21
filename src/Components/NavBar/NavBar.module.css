@@ -1,7 +1,9 @@
 .container {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant: small-caps;
-    padding: 30px;
+    /* padding: 30px; */
+    height: 102px;
+    width: 1440px;
 }
 
 .content {
@@ -12,6 +14,7 @@ img {
     height: 43.7px;
     width: 70px;
     margin-left: auto;
+    margin-top: auto;
 }
 
 .items {
