@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Contact_US.module.css";
+import styles from "./ContactUs.module.css";
 
-const Contact_US = () => {
+const ContactUs = () => {
     return (
         <div className={styles.container}>
              <div>
@@ -24,4 +24,4 @@ const Contact_US = () => {
     );
 }
 
-export default Contact_US;
+export default ContactUs;
