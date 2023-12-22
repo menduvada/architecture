@@ -31,5 +31,23 @@ li a{
 }
 
 li :hover{
-    text-decoration: underline;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
+
+/* @media screen and (max-width:830px) {
+    img {
+        height: 43.7px;
+        width: 70px;
+        margin-left: 15px;
+        margin-top: auto;
+    }
+    .items {
+        float: none;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+} */

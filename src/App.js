@@ -1,21 +1,22 @@
-import './App.css';
-import About from './Components/About/About';
-import Contact from './Components/Contact_US/Contact';
-import Home from './Components/Home/Home';
-import Navbar from './Components/Navbar/Navbar';
-import Projects from './Components/Projects/Projects';
-import Footer from './Components/Footer/Footer';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Gallery from "./Components/Gallery/Gallery";
+import Layout from "./Components/layout/Layout";
+import Contact from "./Components/Contact/Contact";
+import ProjectDetails from "./Components/ProjectDetails/ProjectDetails";
+import Project1 from "./Components/Projects/Project1";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="pd" element={<ProjectDetails />} />
+        <Route path="project1" element={<Project1 />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

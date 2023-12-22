@@ -3,15 +3,14 @@
     height: 765px;
     top: 2027px;
     left: 135px;
-    margin-left: 200px;
-    padding: 0px;
-    justify-content: stretch;
+    margin-left: 155px;
 }
 
 .title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 64px;
     line-height: 64px;
+    margin-right: 0px;
     height: 64px;
     color: rgba(189, 189, 189, 1);
     font-variant: small-caps;
@@ -23,7 +22,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
-    margin-left: 100px;
+    margin-left: 50px;
     z-index: 1;
 }
 
@@ -38,7 +37,7 @@
     background-color: rgba(51, 51, 51, 1);
     color: rgba(255, 255, 255, 1);
     position: relative;
-    left: 1045px;
+    left: 1000px;
     top: 30px;
 }
 

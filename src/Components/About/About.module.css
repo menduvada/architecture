@@ -1,8 +1,6 @@
 .container {
     margin: 100px;
-    margin-left: 220px;
-   
-
+    margin-left: 151px;
 }
 
 .top {
@@ -52,6 +50,7 @@
     font-size: 64px;
     line-height: 64px;
     font-weight: 300;
+    margin-left: 0px;
     font-family: sans-serif;
     color: rgba(189, 189, 189, 1);
     height: 64px;
@@ -93,6 +92,7 @@
     color:rgba(189, 189, 189, 1);
     width: 880px;
     height: 64px;
+    margin-left: 10px;
 }
 
 .content p{
@@ -121,3 +121,4 @@
     color: rgba(242, 242, 242, 1);
     margin: 0px;
 }
+
