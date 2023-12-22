@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Project1.module.css";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
+import styles from "./project1.module.css";
+import Navbar from "../navBar";
+import Footer from "../footer";
 
 const Project1 = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./ProjectDetails.module.css";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
+import styles from "./index.module.css";
+import Navbar from "../navBar";
+import Footer from "../footer";
 
 const ProjectDetails = () => {
   return (
