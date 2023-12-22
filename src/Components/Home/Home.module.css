@@ -8,12 +8,14 @@
 
 .right {
     width: 50%;
+    padding-right: 200px;
 }
 
 .right img {
     height: 600px;
-    width: 700px;
+    width: 800px;
     z-index: 1;
+    margin-left: 35px;
 }
 
 .button {
@@ -25,7 +27,7 @@
     width: 200px;
     z-index: 1;
     position: absolute;
-    right: 584px;
+    right: 748px;
     top: 655px;
 }
 
@@ -43,7 +45,7 @@
     font-variant: small-caps;
     color: rgba(189, 189, 189, 1);
     margin-bottom: 0px;
-    margin-left: 96px;
+    margin-left: 94px;
 }
 
 .text {
@@ -57,7 +59,7 @@
 }
 
 .image {
-    margin-left: 300px;
+    margin-left: 195px;
 }
 
 .image img {
@@ -68,7 +70,7 @@
 
 .number {
     color: rgba(224, 224, 224, 1);
-    margin-left: 300px;
+    margin-left: 195px;
     margin-top: 50px;
 }
 

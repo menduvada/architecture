@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Navbar.module.css";
+import styles from "./NavBar.module.css";
 import { Outlet,Link } from "react-router-dom";
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const Navbar = () => {
               <Link to="/gallery">Gallery</Link>
             </li>
             <li>
-              <Link to="/pd">Projects_Details</Link>
+              <Link to="/pd">Projects Details</Link>
             </li>
             <li>
               <Link to="/contact">Contacts</Link>

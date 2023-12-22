@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./Project_Details.module.css";
+import styles from "./ProjectDetails.module.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
-const Project_Details = () => {
+const ProjectDetails = () => {
   return (
     <div>
       <Navbar />
@@ -76,4 +76,4 @@ const Project_Details = () => {
   );
 };
 
-export default Project_Details;
+export default ProjectDetails;
