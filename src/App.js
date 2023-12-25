@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Gallery from "./components/gallery";
-import Layout from "./components/layout/layout";
+import Layout from "./components/layout/";
 import Contact from "./components/contact";
 import ProjectDetails from "./components/projectDetails";
 import Project1 from "./components/projects/project1";
