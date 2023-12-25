@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import Home from "../Home/Home";
-import About from "../About/About";
-import Projects from "../Projects/Projects";
-import Footer from "../Footer/Footer";
-import ContactUs from "../ContactUs/ContactUs";
+import Navbar from "../navBar";
+import Home from "../home";
+import About from "../about";
+import Projects from "../projects";
+import Footer from "../footer";
+import ContactUs from "../contactUs";
 
 function Layout() {
   return (

@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Gallery from "./Components/Gallery/Gallery";
-import Layout from "./Components/layout/Layout";
-import Contact from "./Components/Contact/Contact";
-import ProjectDetails from "./Components/ProjectDetails/ProjectDetails";
-import Project1 from "./Components/Projects/Project1";
+import Gallery from "./Components/gallery";
+import Layout from "./Components/layout/layout";
+import Contact from "./Components/contact";
+import ProjectDetails from "./Components/projectDetails";
+import Project1 from "./Components/projects/project1";
 
 function App() {
   return (
